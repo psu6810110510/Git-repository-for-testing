@@ -1,4 +1,4 @@
-from coe_6810110510.Heckerrank1Funny import funnyString
+from coe_6810110510.Hackerrank1Funny import funnyString
 import unittest
 
 #ตามHeckerrank
