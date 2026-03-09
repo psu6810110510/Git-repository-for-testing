@@ -14,8 +14,3 @@ def staircase(n,display):
         characters = display * i
         result.append(spaces + characters)
     return '\n'.join(result)
-
-if __name__ == "__main__":
-    n = 4
-    display = "p"
-    print(staircase(n, display))
