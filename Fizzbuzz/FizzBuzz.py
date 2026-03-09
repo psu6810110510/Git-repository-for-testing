@@ -7,5 +7,3 @@ def FizzBuzz(X):
         return ("Buzz")
 
 
-#main 
-FizzBuzz(5)
