@@ -1,4 +1,4 @@
-from FizzBuzz import FizzBuzz
+from coe_6810110510.FizzBuzz import FizzBuzz
 import unittest
 
 class TestFizzBuzz(unittest.TestCase):
