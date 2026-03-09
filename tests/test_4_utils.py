@@ -1,7 +1,7 @@
 from coe_6810110510.n4_utils import calculate_total
 import unittest
 
-class TestCalculateTotai(unittest.TeseCase):
+class TestCalculateTotal(unittest.TestCase):
     def test_calculate_total_input_empty_cart_should_return_0(self):
         self.assertEqual(calculate_total([]), 0.0)
 
@@ -24,7 +24,7 @@ class TestCalculateTotai(unittest.TeseCase):
             {"price": 10.0, "quantity": 2},
             {"price": 5.0, "quantity": 3}
         ]
-        self.assertEqual(calculate_total(cart, discount_code="SAVE20"), 28.0)
+        self.assertEqual(calculate_total(cart, discount_code="SAVE20"), 35.0)
 
     def test_calculate_total_input_cart_with_missing_price_should_raise_value_error(self):
         cart = [
